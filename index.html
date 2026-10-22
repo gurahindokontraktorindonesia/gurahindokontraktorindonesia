@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nama Perusahaan / Bisnis Anda</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <!-- Logo Placeholder -->
+        <img src="https://via.placeholder.com/150x50?text=LOGO" alt="Logo Perusahaan" class="h-10 w-auto object-contain" />
+      </a>
+      <nav class="hidden md:flex items-center gap-8 font-medium text-slate-600">
+        <a href="#home" class="hover:text-blue-600 transition-colors">Beranda</a>
+        <a href="#layanan" class="hover:text-blue-600 transition-colors">Layanan</a>
+        <a href="#tentang" class="hover:text-blue-600 transition-colors">Tentang Kami</a>
+        <a href="#kontak" class="hover:text-blue-600 transition-colors">Kontak</a>
+      </nav>
+      <a href="#kontak" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-xl transition-all shadow-md shadow-blue-500/20">
+        Hubungi Kami
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="py-20 lg:py-28 relative overflow-hidden bg-gradient-to-b from-blue-50/50 to-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-blue-100 text-blue-700 mb-6">
+        <i data-lucide="sparkles" class="w-4 h-4"></i> Solusi Terbaik & Terpercaya
+      </span>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight max-w-4xl mx-auto leading-tight">
+        Selamat Datang di <span class="text-blue-600">[Nama Bisnis Anda]</span>
+      </h1>
+      <p class="mt-6 text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+        Deskripsi singkat mengenai layanan atau produk utama yang Anda tawarkan sesuai dengan profil usaha Anda.
+      </p>
+      <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="https://wa.me/628123456789" target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 text-base font-semibold text-white bg-green-600 hover:bg-green-700 rounded-xl transition-all shadow-lg shadow-green-600/20">
+          <i data-lucide="message-circle" class="w-5 h-5"></i> Chat via WhatsApp
+        </a>
+        <a href="#layanan" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 text-base font-semibold text-slate-700 bg-white hover:bg-slate-100 border border-slate-200 rounded-xl transition-all">
+          Lihat Layanan
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Layanan Section -->
+  <section id="layanan" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl font-bold text-slate-900">Layanan & Produk Kami</h2>
+        <p class="mt-4 text-slate-600">Kami menyediakan berbagai layanan profesional berkualitas tinggi untuk memenuhi kebutuhan Anda.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition-all hover:-translate-y-1">
+          <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6">
+            <i data-lucide="check-circle-2" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3">Layanan Utama 1</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Detail dan keunggulan dari layanan pertama yang dijelaskan di Facebook/dokumen Anda.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition-all hover:-translate-y-1">
+          <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6">
+            <i data-lucide="shield-check" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3">Layanan Utama 2</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Detail dan keunggulan dari layanan kedua yang dijelaskan di Facebook/dokumen Anda.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition-all hover:-translate-y-1">
+          <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6">
+            <i data-lucide="star" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3">Layanan Utama 3</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Detail dan keunggulan dari layanan ketiga yang dijelaskan di Facebook/dokumen Anda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak & Alamat Section -->
+  <section id="kontak" class="py-20 bg-slate-900 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <span class="text-blue-400 font-semibold text-sm uppercase tracking-wider">Informasi Kontak</span>
+          <h2 class="text-3xl font-bold mt-2 mb-6">Hubungi Kami Kapan Saja</h2>
+          <p class="text-slate-400 mb-8 leading-relaxed">Silakan kontak kami melalui telepon, WhatsApp, atau kunjungi lokasi kantor/toko kami di alamat di bawah ini.</p>
+          
+          <div class="space-y-6">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center text-blue-400 shrink-0">
+                <i data-lucide="map-pin" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-slate-200">Alamat</h4>
+                <p class="text-slate-400 text-sm mt-1">[Alamat Lengkap Perusahaan Anda]</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center text-blue-400 shrink-0">
+                <i data-lucide="phone" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-slate-200">Nomor Telepon / WhatsApp</h4>
+                <p class="text-slate-400 text-sm mt-1">[+62 812-xxxx-xxxx]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+          <h3 class="text-xl font-bold mb-4">Kirim Pesan Ringkas</h3>
+          <form class="space-y-4">
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Nama</label>
+              <input type="text" placeholder="Nama Anda" class="w-full px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-700 text-white focus:outline-none focus:border-blue-500 text-sm">
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Nomor WhatsApp</label>
+              <input type="text" placeholder="08xxxxxxxxxx" class="w-full px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-700 text-white focus:outline-none focus:border-blue-500 text-sm">
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 uppercase mb-1">Pesan</label>
+              <textarea rows="3" placeholder="Tuliskan kebutuhan Anda..." class="w-full px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-700 text-white focus:outline-none focus:border-blue-500 text-sm"></textarea>
+            </div>
+            <button type="button" class="w-full py-3 bg-blue-600 hover:bg-blue-700 font-semibold rounded-lg transition-all">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-slate-950 py-8 border-t border-slate-800 text-center text-slate-500 text-sm">
+    <div class="max-w-7xl mx-auto px-4">
+      <p>&copy; 2026 [Nama Perusahaan Anda]. Hak Cipta Dilindungi.</p>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
